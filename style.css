@@ -15,14 +15,13 @@ text-decoration: none;
  --text-color: #171427;
  --bg-color: #fff;
 }
-.product-box{
-    padding: 10px 10px 0px 20px;
-    }
 img{
     width: 100px;
 }
 body{
     color: var(--text-color);
+    background-image: url(upwk61843344-wikimedia-image-kowcf887.jpg);
+    
 }
 .container{
     max-width: 1068px;
@@ -32,6 +31,9 @@ body{
 section{
     padding: 4rem 0 3rem;
 }
+.product-box{
+    padding: 10px 10px 0px 20px;
+    }
 header{
     position: fixed;
     top: 0;
@@ -148,10 +150,11 @@ header{
     padding: 10px;
 }
 .section-title{
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 2.5rem;
+    font-weight: 700;
     text-align: center;
     margin-bottom: 1.5rem;
+    color: #fff;
 }
 .shop{
     margin-top: 2rem;
@@ -164,12 +167,13 @@ header{
 .product-box{
     position: relative;
     transition: .5s;
-    border-radius: 7px;
+    border-radius: 19px;
+    background-color: rgba(255, 255, 255, 0.747);
 }
 .product-box:hover{
     border: 1px solid var(--text-color);
     transition: .5s;
-    background-color: #00000013;
+    background-color: #ffffff;
 }
 .product-img{
     width: 100%;
